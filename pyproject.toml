@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fundtrack"
+version = "0.1.0"
+description = "A lightweight pipeline for funds data."
+authors = ["Jasper Brandes"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+pandas = "^2.2.3"
+boto3 = "^1.35.76"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
